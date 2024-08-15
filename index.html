@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" class="header__logo" alt="logo_kodland">
+        </div>
+        <nav class="header__nav">
+            <ul class="list">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <i id="burger__icon" class='bx bx-menu burger__icon'></i>
+            <div id="burger__menu" class="burger__menu">
+                <ul id="menu__options" class="list list--column">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="section section--home">
+            <div class="section__content section__content--small">
+                <h1 class="section__content__title">POP IT!</h1>
+                <p class="section__content__parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nam est vel. Fugit repudiandae explicabo dolor rem adipisci, consectetur ipsum. Voluptatem atque quo provident quaerat dolorem natus earum accusamus quae?</p>
+                <button class="button button--margin-top">Ingresar</button>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section__content section__content--black">
+                <h2 class="section__content__secondary-title section__content__title--center">Titulo 2</h2>
+                <p class="section__content__parragraph--center--small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo error aperiam culpa ut eaque illum non earum soluta odit eum inventore provident distinctio ad sint amet delectus sapiente ducimus explicabo magni quaerat, blanditiis optio laborum? Molestiae laborum natus nulla, fugiat laboriosam maxime excepturi quas provident suscipit odit, obcaecati assumenda!</p>
+            </div>
+        </section>
+        <section id="products" class="section section--products">
+            <article class="card">
+                <img class="card__image" src="./images/square.png" alt="Square">
+                <button class="button button--orange button--center">Buy</button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/amongus.png" alt="Amongus">
+                <button class="button button--orange button--center">Buy</button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/round.png" alt="Round">
+                <button class="button button--orange button--center">Buy</button>
+            </article>
+        </section>
+        <section class="section section--bg-round">
+            <div class="section__content section__content--black">
+                <h1 class="section__content__secondary-title">title</h1>
+                <p class="section__content__parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nam est vel. Fugit repudiandae explicabo dolor rem adipisci, consectetur ipsum. Voluptatem atque quo provident quaerat dolorem natus earum accusamus quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet optio nulla qui facere amet quasi iure nisi minus, ad error et deserunt vel recusandae similique incidunt fugiat tempore. A, dolorum.</p>
+            </div>
+            <img class="image" src="./images/photo.jpg" alt="Photo">
+        </section>
+    </main>
+    <footer id="contact" class="footer">
+        <ul class="list">
+            <li>Ejemplo</li>
+            <li>Ejemplo</li>
+            <li>Ejemplo</li>
+            <li>Ejemplo</li>
+            <li>Ejemplo</li>
+        </ul>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
